@@ -1,0 +1,244 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.heading {
+
+  font-size: 35px;
+ padding-bottom:20px;
+
+}
+
+
+.collapse{
+  font-size: 12px;
+  font-family: 'Segoe UI', 'system-ui';
+  color: #6264A7;
+  text-decoration: none;
+
+
+}
+.collapse:hover{
+  font-weight: bold !important;
+  color: #6264A7;
+}
+.collapseGrid
+{
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  background-color: #faf9f8
+}
+
+
+.message {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+
+  font-size: 12px;
+float: left;
+
+}
+
+.message-body{
+  border-bottom: 1px solid #ccc;
+
+  padding: 8px;
+  font-size: 14px;
+
+
+
+}
+
+.grid-container {
+  display: grid;
+
+  grid-gap: 20px;
+}
+.reply-grid-container {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  grid-gap: 40px;
+  border-bottom: 1px solid #ccc;
+ background-color: #faf9f8
+}
+.reply-grid-container:hover
+{
+  background-color:#f4f3f2;
+
+}
+.avatar{
+ // padding-top: 10px;
+  float: left;
+
+}
+
+.reply-message-body{
+
+  padding: 8px;
+  font-size: 14px;
+
+
+
+}
+.reply-icon{
+  height: 15px;
+  width: 15px;
+ vertical-align: middle;
+
+
+}
+
+.reply-link {
+
+  font-size: 12px;
+  font-family: 'Segoe UI', 'system-ui';
+  color: #6264A7;
+  text-decoration: none;
+
+
+
+}
+.reply-link:hover {
+  font-weight: bold !important;
+  color: #6264A7;
+}
+
+
+
+.message-timestamp {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #aaa;
+}
+
+.message-sender {
+  margin-bottom: 8px;
+  float: left;
+}
+.sender-container {
+  width:auto;
+
+  margin: auto;
+}
+
+.textbox {
+  border: none;
+ //margin:0 10px 10px 10px;
+ padding: 8px 8px 8px 3px;
+ width:100%;
+  font-size: 12px;
+  float:left;
+
+  background-image: url(../../../icons/filled-sent.png) ;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 10px;
+  border-bottom: 2px solid #6264A7;
+
+}
+
+.textbox:focus {
+ // background-image: none;
+  outline: none;
+  border-bottom: 2px solid #6264A7;
+}
+
+.replyTextbox {
+  border: none;
+ //margin:0 10px 10px 10px;
+ padding: 8px 8px 8px 0px;
+ margin-bottom: 5px;
+ flex: 1;
+
+ width:100%;
+  font-size: 12px;
+  float:left;
+  //margin-left: 30%;
+  background-image: url(../../../icons/filled-sent.png) ;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 10px;
+  border-bottom: 2px solid #6264A7;
+
+}
+
+.replyTextbox:focus {
+//  background-image: none;
+  border: none;
+  border-bottom: 2px solid #6264A7;
+  outline: none;
+}
+.button{
+  margin-top:3px;
+
+
+  float: right;
+  width: auto;
+  background-image:  url(../../../icons/arrow-icon.png) ;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  border: none;
+
+}
+.button:hover{
+  cursor: pointer;
+}
+.buttonIcon{
+  background-image:  url(../../../icons/arrow-icon.png) ;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+
+.newMessage {
+
+   display: flex;
+   margin: 0px 10px 0px 10px;
+  width: 100%;
+  font-size: 12px;
+
+}
+
+.photo {
+  height: 20px;
+  width:20px;
+  padding: 8px;
+  float: right;
+  margin-right: 3px;
+}
+
+input[type="text"]:not(:placeholder-shown)
+{
+  background-image: none;
+}
+
+.profileImage{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.replyProfileImage{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+ margin: 5px;
+}
+
+.mainDiv
+{
+  display: grid;
+  grid-template-columns: 0.05fr 0.95fr;
+  grid-gap: 10px;
+}
+.replyDiv
+{
+  padding:5px;
+  background-color: #faf9f8
+
+}
+
+
